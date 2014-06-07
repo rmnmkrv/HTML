@@ -1,0 +1,213 @@
+body
+{
+	font:14px/22px Arial, sans-serif;
+	color: #777;
+	margin: 0 auto;
+	width: 960px;
+}
+
+a
+{
+	color: inherit;
+}
+
+.no_decor
+{
+	text-decoration: none;
+}
+
+header
+{
+	padding-bottom: 15px;
+	border-bottom: 1px solid #777;
+	margin-bottom: 20px;
+}
+
+.clearfix:after
+{
+	content: '';
+	width: 100%;
+	display: table;
+}
+
+.header__wrapper
+{
+	margin-left: 122px;
+}
+
+.logo
+{
+	background-color: #777;
+	float: left;
+}
+
+.header__central, .header__contacts
+{
+	display: inline-block;
+	background-color: #777;
+	color: #fff;
+	height: 107px;
+	float: left;
+}
+
+.header__contacts
+{
+	
+	width: 61%;
+	text-align: right;
+}
+
+.header__contacts_text
+{
+	display: block;
+	margin: 20px 20px 0 0;
+}
+
+.header__central
+{
+	width: 33%;
+	margin: 0 3%;
+}
+
+.content_wrapper
+{
+	position: relative;
+	margin-bottom: 20px;
+	min-height: 800px;
+}
+
+nav
+{
+	float: left;
+	width: 185px;
+	height: 774px;
+}
+
+.nav_logo
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #777;
+}
+
+.nav__navigation
+{
+	background-color: #777;
+	color: #fff;
+	padding: 15px 10px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.main
+{
+	margin-left: 206px;
+}
+
+article
+{
+	padding: 20px 0 20px 20px;
+	background-color: #D3D3D3;
+	margin-bottom: 20px;
+
+}
+
+.article__list
+{
+	margin: 40px 0 40px 40px;
+	list-style: disc;
+}
+
+.img_block
+{
+	margin:0 22px 22px 0;
+	background-color: #D3D3D3;
+}
+
+.img_block:nth-of-type(5n)
+{
+	margin-right: 0;
+}
+
+.bottom_box_wrapper
+{
+	position: absolute;
+	bottom: 0;
+}
+
+.bottom_box
+{
+	width: 345px;
+	height: 202px;
+	padding: 10px;
+	background-color: #D3D3D3;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+footer
+{
+	padding-top: 20px;
+	border-top: 1px solid #777;
+}
+
+.footer__left_box, .footer__center_box
+{
+	display: inline-block;
+	background-color: #777;
+	width: 308px;
+	height: 170px;
+	color: white;
+	vertical-align: top;
+}
+
+.footer__center_box
+{
+	margin: 0 14px;
+}
+
+.footer__center_box ul
+{
+	padding: 10px 20px;
+	list-style: square inside;
+}
+
+.footer__left_box__first_column, .footer__left_box__second_column
+{
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.footer__right_box
+{
+	display: inline-block;
+	width: 308px;
+	height: 170px;
+	color: white;
+	vertical-align: top;
+	position: relative;
+}
+
+.footer__right_box_top{
+	height: 78px;
+	background-color: #777;
+}
+
+.footer__logo
+{
+	position: absolute;
+	bottom: 0;
+	background-color: #777;
+}
